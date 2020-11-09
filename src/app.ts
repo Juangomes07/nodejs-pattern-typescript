@@ -1,7 +1,10 @@
 import 'dotenv/config';
 import express from 'express';
+import 'express-async-errors';
 import routes from './routes';
 import routesError from './middlewares/routesError';
+
+import './database';
 
 class App {
   public express;

@@ -24,6 +24,9 @@
     ],
     "rules": {
       "prettier/prettier": "error",
+      "class-methods-use-this":"off",
+      "camelcase": "off",
+      "no-underscore-dangle":"off",
       "import/extensions": [
         "error",
         "ignorePackages",
